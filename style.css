@@ -113,14 +113,9 @@ header{
 
 }
 
-#messages{
-
-    flex:1;
-
-    padding:25px;
-
-    overflow-y:auto;
-
+#messages {
+    overflow-y: auto;
+    height: calc(100vh - 140px);
 }
 
 .bot-message{
